@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+    width: 600px;
+    margin: 10px auto;
+    border: 10px solid green;
+    border-radius: 10px;
+}
+label{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+#category, input{
+    position: relative;
+    float: right;
+    padding: 5px;
+}
+#category{
+    width: 175px;
+    padding: 5px;
+}
+div form button{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: papayawhip;
+}
+
+#submit{
+    width: 100%;
+}
+
+#resultContainer{
+    font-size: 20px;
+    width: 600px;
+    border: 10px solid red;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+span{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+li{
+    list-style: none;
+    border-bottom: 2px solid brown;
+}
+
+#deleteBtn{
+    background-color: red;
+    color: #fff;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#editBtn {
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
